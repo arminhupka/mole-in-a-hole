@@ -10,7 +10,7 @@ let score = 0;
 const randomMole = () => {
 
     const mole = document.createElement('img');
-    mole.src = '/assets/mole.svg';
+    mole.src = './assets/mole.svg';
     let randomNum = 0;
     randomNum = Math.floor(Math.random() * mound.length);
     document.getElementById(`${randomNum}`).appendChild(mole).classList.add('garden__mole');
